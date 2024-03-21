@@ -82,14 +82,13 @@ section.header {
     transition: .3s cubic-bezier(0,.85,.32,1.01);
 }
 
-/* Hero section */
-
 .header-btn a:hover {
     background-color: #5e3d06;
     transition: .8s cubic-bezier(0.52, 0.25, 0, 0.71);
     /* overflow: hidden; */
 }
 
+/* Hero section */
 .hero-wrapper {
     display: flex;
     align-items: center;
