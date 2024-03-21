@@ -111,7 +111,7 @@ section.header {
 .hero-right {
     flex-basis: 50%;
     position: relative;
-    background: #a7722b;
+    /* background: #a7722b; */
     height: 100%;
 }
 
@@ -173,4 +173,15 @@ section.header {
     position: absolute;
     top: 49%;
     z-index: 5;
+}
+
+.hero-btn a {
+    background-color: #FCA311;
+    color: white;
+    text-decoration: none;
+    padding: 16px 45px;
+    border-radius: 10px;
+    margin-top: 40px;
+    display: inline-block;
+    font-weight: 600;
 }
