@@ -184,3 +184,68 @@ section.header {
     display: inline-block;
     font-weight: 600;
 }
+
+/* Beyond section */
+
+section.beyond {
+    display: flex;
+    align-items: center;
+    padding-top: 150px;
+    padding-bottom: 170px;
+}
+
+.beyond-left-wrapper {
+    flex-basis: 50%;
+    width: 558px;
+    margin-left: 155px;
+    padding-right: 115px;
+}
+
+.beyond-right {
+    flex-basis: 50%;
+}
+
+.beyond-right img:nth-child(1) {
+    position: relative;
+    z-index: 99;
+}
+
+.beyond-right img:nth-child(2) {
+    height: 848px;
+    position: absolute;
+    right: 0%;
+    z-index: -4;
+    top: -13%;
+}
+
+.beyond-left-wrapper h3 {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 7px;
+}
+
+
+.beyond-left-wrapper h4 {
+    color: #FCA311;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 13px;
+}
+
+.beyond-left-wrapper p {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    letter-spacing: 1.5px;
+    text-align: justify;
+}
+
+.beyond-btn a {
+    background-color: #FCA311;
+    color: white;
+    text-decoration: none;
+    padding: 16px 44px;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: inline-block;
+}
